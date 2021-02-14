@@ -80,10 +80,3 @@ if __name__ == '__main__':
     pred = lr.predict(X,0.5)
 
     print("Prediction accuracy is {}".format(np.mean(pred==y)))
-
-
-
-
-
-
-
